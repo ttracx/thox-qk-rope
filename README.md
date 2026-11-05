@@ -15,6 +15,8 @@ Query-key RMSNorm and NeoX rotary embedding for local decode. Source and a teste
 
 **Your AI. Your Data. Your Rules.**
 
+Source git: [ttracx/thox-qk-rope](https://github.com/ttracx/thox-qk-rope). Hub source mirror: [Thox-ai/thox-qk-rope-src](https://huggingface.co/Thox-ai/thox-qk-rope-src).
+
 | Item | State |
 |---|---|
 | What this repository is | kernel-builder source plus the v1 reference |

@@ -1,0 +1,30 @@
+[general]
+name = "thox_qk_rope"
+version = 1
+edition = 6
+backends = ["cuda", "cpu"]
+source = "https://github.com/ttracx/thox-qk-rope"
+
+[general.hub]
+repo-id = "Thox-ai/thox-qk-rope"
+
+[torch]
+src = [
+  "torch-ext/torch_binding.cpp",
+  "torch-ext/torch_binding.h",
+]
+
+[kernel.qk_rope_cpu]
+language = "cpp-cpu"
+depends = ["torch"]
+src = [
+  "qk_rope_cpu/qk_rope.cpp",
+  "qk_rope_cpu/spec.c",
+  "qk_rope_cpu/spec.h",
+]
+cxx-flags = ["-ffp-contract=off"]
+
+[kernel.qk_rope_cuda]
+language = "cpp-cuda"
+depends = ["torch"]
+src = ["qk_rope_cuda/qk_rope.cu"]

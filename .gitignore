@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.local-build/
+result
+flake.lock
+*.so
+.DS_Store

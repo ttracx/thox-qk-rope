@@ -1,0 +1,17 @@
+[project]
+name = "thox-qk-rope"
+version = "1.0.0"
+description = "Reference and kernel-builder source for THOX query-key RMSNorm and NeoX RoPE."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+dependencies = ["numpy"]
+
+[tool.setuptools]
+py-modules = []
+
+[tool.setuptools.package-dir]
+thox_qk_rope = "torch-ext/thox_qk_rope"
+
+[tool.setuptools.packages.find]
+where = ["torch-ext"]

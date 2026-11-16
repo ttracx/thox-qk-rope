@@ -11,6 +11,10 @@ tags:
 
 # thox-qk-rope
 
+![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
+![THOX.ai](https://img.shields.io/badge/THOX.ai-LLC-red.svg)
+![Repository](https://img.shields.io/badge/repository-ttracx%2Fthox--qk--rope-0B1220)
+
 Query-key RMSNorm and NeoX rotary embedding for local decode. Source and a tested numerical contract. Not a Kernel Hub binary.
 
 **Your AI. Your Data. Your Rules.**
@@ -66,3 +70,17 @@ python3 -m unittest tests.test_reference tests.test_spec -v
 `paper/main.tex` is the technical note. It reports no speedup.
 
 Apache-2.0. Copyright 2026 THOX.ai LLC.
+
+---
+
+## Legal
+
+Copyright (c) 2024-2026 THOX.ai LLC. All rights reserved.
+
+**THOX.ai LLC**
+- CTO: Tommy Xaypanya
+- CEO: Craig Ross
+
+Licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for details.
+
+Unauthorized copying, modification, merger, publication, distribution, sublicensing, and/or selling of this software, via any medium, is strictly prohibited without prior written consent from THOX.ai LLC.
